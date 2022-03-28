@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("To jest klasa");
         Interfejsik a = new Klasunia();
         System.out.println(a.getSalary());
 
