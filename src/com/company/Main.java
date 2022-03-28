@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("To jest klasa");
         Interfejsik a = new Klasunia();
         System.out.println(a.getSalary());
 
@@ -13,6 +13,7 @@ public class Main {
         Arrays.sort(tab);
         for(int val : tab) {
             System.out.println(val);
+            System.out.println("Kod czerwony uruchomiony. Leci rakieta.");
         }
     }
 }
